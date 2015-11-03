@@ -1,5 +1,7 @@
 README for jtty-builder
 ~~~~~~~~~~~~~~~~~~~~~~~
+easy-to-install JSP web server for Unix
+
 jtty-builder is an easy-to-install, lightweight webserver with a JSP
 container for Unix. More specifically, jtty-builder is just a set of shell
 scripts for Unix which automate downloading and building a lightweight Java
@@ -7,6 +9,10 @@ web and application server for serving JSP (and Java servlets). The
 container used is Jtty, which uses Jetty, which uses parts of Apache Tomcat
 (mostly Jasper). Most steps are automated. There is no need to write
 configuration files.
+
+See also jtty-prebuilt/jttyp.jar for the prebuilt .jar file.
+
+blog post: blog post http://ptspts.blogspot.com/2011/05/jtty-builder-easy-to-install-jsp-web.html
 
 To start serving a hello-world JSP page on Unix, do this:
 
